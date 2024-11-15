@@ -69,8 +69,8 @@ ol {
   background-color: #4d5ae5;
   cursor: pointer;
 }
-.btn:focus,
-.btn:hover {
+.hero-btn:focus,
+.hero-btn:hover {
   background-color: #404bbf;
 }
 .advantages-subtitle {
