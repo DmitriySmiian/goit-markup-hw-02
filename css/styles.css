@@ -35,7 +35,6 @@ ol {
   color: #4d5ae5;
 }
 .nav_link {
-  font-family: 'Roboto', sans-serif
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -66,13 +65,14 @@ ol {
   color: #fff;
 }
 .hero-btn {
-  background: #4d5ae5;
-  font-weight: 500;
+    font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #fff;
-  font-family: inherit;
+  font-family: inherit; 
+  background-color: #4d5ae5;
+  cursor: pointer;
 }
 .switcher:focus,
 .switcher:hover {
@@ -104,8 +104,7 @@ ol {
   letter-spacing: 0.02em;
   text-align: center;
   text-transform: capitalize;
-  color: #2e2f42;
-}
+  color: #2e2f42;}
 .team-item {
   background-color: #ffffff;
 }
@@ -143,14 +142,12 @@ ol {
 .footer {
   background-color: #2e2f42;
 }
-.footer-logo,.footer-logo-studio {
-  font-size: 18px;
-  line-height: 1.16;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
+.footer-logo .footer-logo-studio {
   color: #f4f4fd;
 }
+
 .footer-text {
+  font-family: 'Roboto', sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
