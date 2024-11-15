@@ -34,7 +34,8 @@ ol {
   text-transform: uppercase;
   color: #4d5ae5;
 }
-.nav_list_item {
+.nav_link {
+  font-family: 'Roboto', sans-serif
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -73,7 +74,11 @@ ol {
   color: #fff;
   font-family: inherit;
 }
-.section-advantages {
+.switcher:focus,
+.switcher:hover {
+  background-color: #404bbf;}
+.advantages-subtitle {
+  font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -81,21 +86,30 @@ ol {
   color: #2e2f42;
 }
 .advantages-text {
+  font-family: 'Roboto', sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
 }
+.section-team {
+  background-color: #f4f4fd;}
 .team-title,
-.section-portfolio {
+.portfolio-title {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
+  text-transform: capitalize;
   color: #2e2f42;
 }
-.team-list {
+.team-item {
+  background-color: #ffffff;
+}
+.team-img-subtitle {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -103,7 +117,7 @@ ol {
   text-align: center;
   color: #2e2f42;
 }
-.team-item {
+.team-img-text{
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -111,23 +125,7 @@ ol {
   text-align: center;
   color: #434455;
 }
-.footer {
-  background-color: #2e2f42;
-}
-.color_footer_logo {
-  font-size: 18px;
-  line-height: 1.16;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #f4f4fd;
-}
-.footer-text {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #f4f4fd;
-}
+
 .portfolio-img-subtitle {
   font-weight: 500;
   font-size: 20px;
@@ -141,4 +139,21 @@ ol {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+}
+.footer {
+  background-color: #2e2f42;
+}
+.footer-logo,.footer-logo-studio {
+  font-size: 18px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #f4f4fd;
+}
+.footer-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
 }
