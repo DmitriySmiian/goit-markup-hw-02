@@ -13,20 +13,7 @@ ol {
 .header {
   background: #ffffff;
 }
-.section-hero {
-  background-color: #2e2f42;
-}
-.section-team {
-  background: #f4f4fd;
-}
-.color-logo {
-  font-family: 'Raleway', sans-serif;
-  font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #2e2f42;
-}
+
 .logo {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
@@ -61,6 +48,9 @@ ol {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+}
+.section-hero {
+  background-color: #2e2f42;
 }
 .hero-title {
   font-size: 56px;
